@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/product.css">
+    <!-- aos library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class='product-section' >
+
+        <div class="product-container" data-aos="flip-right">
+            <div class="product-info-container">
+                <div class="product-container-head" data-aos="fade-in" data-aos-delay="500">
+                    <button class="btn btn-room"><a href="/room"><i class="fa-solid fa-arrow-left"></i> BACK TO COLLECTION</a></button>
+                    <button class="btn">SHARE <i class="fa-solid fa-share-nodes"></i></button>
+                </div>
+                <h1 data-aos="fade-in" data-aos-delay="300"> <%= details.name %></h1>
+                <div data-aos="fade-in" data-aos-delay="300" style="display: block;" class="info options">
+                    <h2>Rs. 6,500.00 <span>Rs. 7,000.00</span></h2>
+                    <p>or 3 interests free payments of ₹ 1666.68</p>
+            </div>
+            <div data-aos="fade-in" data-aos-delay="300" class="info options">
+                <button class="btn">SIZE</button>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div data-aos="fade-in" data-aos-delay="300" class="info options">
+                <button class="btn">QTY</button>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div data-aos="fade-in" data-aos-delay="300" class="info options">
+                <button class="btn">DETAILS</button>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div data-aos="fade-in" data-aos-delay="300" class="info options">
+                <button class="btn">ACCOUNT</button>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="social-links">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div class="product-container-foot">
+                <div class="footer-links">
+                    
+                    <a href="">CONTACT</a>
+                    <a href="">FAQs</a>
+                    <a href="">POLICIES</a>
+                    <a href="">T&C</a>
+                    <a href="">SHIPPING RETURNS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-img-container">
+
+        <img data-aos="zoom-in" src="<%= src %>" alt="product-img" />
+    </div>
+</section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>

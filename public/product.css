@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Inria+Serif:wght@300;400;700&display=swap');
+
+:root{
+    --light-text:#615858;
+    --extra-light:#B3B3B3;
+}
+
+.product-container{
+    position: relative;
+    height: 90vh;
+    background-color: #fff;
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh;
+}
+.product-container-head{
+    display: flex;
+    justify-content: space-between;
+}
+.product-container-head button{
+    cursor: pointer;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--light-text);
+}
+
+.product-container-head .btn-room:hover{
+    color: var(--root-color-primary);
+}
+.product-container-head button .fa-arrow-left{
+    margin-right: 10px;
+}
+.product-container .product-info-container h1{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-family: 'Inria Serif', serif;
+    font-size:40px;
+}
+.product-info-container .info{
+    margin-bottom: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.product-info-container .info button{
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    letter-spacing: 1px;
+}
+.social-links{
+    width: fit-content;
+    display: flex;
+    margin-left: auto;
+    position: absolute;
+    bottom: 50px;
+    right: 32px;
+    padding: 1rem;
+}
+.fa-square-instagram{
+    margin-left: 10px;
+}
+.social-links i{
+    font-size: 24px;
+    color: var(--extra-light);
+}
+.product-container-foot{
+    width: 90%;
+    position: absolute;
+    bottom: 0; 
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.product-container-foot .footer-links{
+    padding:1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links a{
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    color: var(--extra-light);
+}
+.product-container .info h2 span{
+    text-decoration: line-through;
+    color: var(--extra-light);
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.product-container .info h2{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+}
+.product-container .info p{
+    margin: 0;
+    font-family: 'Inter',sans-serif;
+    color: var(--light-text);
+}
+.product-section{
+    display: flex;
+}
+.product-img-container{
+    width: 800px;
+    height: 90%;    
+}
+.product-img-container img{
+    margin-top: 93px;
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+}
