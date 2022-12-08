@@ -8,6 +8,9 @@
   --cameraZ: 0;
   --viewportHeight: 0;
 }
+::-webkit-scrollbar {
+  width: 0px;
+}
 
 .viewport {
   height: calc(var(--viewportHeight) * 1px);
